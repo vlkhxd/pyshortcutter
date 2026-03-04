@@ -14,6 +14,7 @@ def build_hotkeys_help_menu(parent_menu: QtWidgets.QMenu, cfg: dict):
     lines = [
         (hk.get("toggle", "f6"), "Toggle hotkeys"),
         (hk.get("playpause_ru", "ё"), "Play/Pause (RU key)"),
+        (hk.get("prev", "f7"), "Previous / Rewind (media)"),
         (hk.get("next", "f8"), "Next"),
         (hk.get("playpause", "f9"), "Play/Pause"),
         (hk.get("mute", "f10"), "Mute"),

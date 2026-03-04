@@ -195,6 +195,7 @@ class SettingsDialog(QtWidgets.QDialog):
         # Actions
         add_row("toggle", "Toggle hotkeys", "f6")
         add_row("playpause_ru", "Play/Pause (RU key)", "ё")
+        add_row("prev", "Previous / Rewind (media)", "f7")
         add_row("next", "Next", "f8")
         add_row("playpause", "Play/Pause", "f9")
         add_row("mute", "Mute", "f10")
